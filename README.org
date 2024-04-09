@@ -1,0 +1,21 @@
+#+title: qarch
+#+author: quitaxd
+
+* qarch
+An Arch Linux repo for everyone!
+
+** Installation
+Add these lines into your pacman.conf
+
+#+BEGIN_SRC
+[qarch]
+SigLevel = Optional TrustAll
+Server = https://git.quitaxd.online/quitaxd/qarch/raw/branch/master/$arch
+#+END_SRC
+
+** Q&A
+*** Where is pacman.conf
+Just go to ~/etc/pacman.conf~
+
+*** Why?
+Because why not?
