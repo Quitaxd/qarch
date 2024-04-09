@@ -10,7 +10,7 @@ Add these lines into your pacman.conf
 #+BEGIN_SRC
 [qarch]
 SigLevel = Optional TrustAll
-Server = https://git.quitaxd.online/quitaxd/qarch/raw/branch/master/$arch
+Server = https://git.quitaxd.online/quitaxd/qarch/raw/branch/main/$arch
 #+END_SRC
 
 ** Q&A
